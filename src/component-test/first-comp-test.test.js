@@ -7,8 +7,6 @@ it('component test demo', () => {
     // Mount the application
     mount(<App />);
 
-    // cy.get("a").contains('Learn React');
-
     cy.get('select').should('have.text', 'CypressSeleniumPlaywrightTestProject')
     cy.get('select').select('TestProject');
 
