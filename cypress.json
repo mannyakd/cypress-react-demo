@@ -1,0 +1,16 @@
+{
+  "baseUrl": "https://customers.aws-stage.openmarket.com/overview",
+  "defaultCommandTimeout": 20000,
+  "execTimeout": 60000,
+  "pageLoadTimeout": 60000,
+  "requestTimeout": 5000,
+  "responseTimeout": 5000,
+  "testFiles": "**/*.{feature, features}",
+  "video": false,
+  "watchForFileChanges": false,
+  "component": {
+    "testFiles": "**/*.test.{js,ts,jsx,tsx}",
+    "componentFolder": "src/component-test"
+  },
+  "projectId": "44qcus"
+}

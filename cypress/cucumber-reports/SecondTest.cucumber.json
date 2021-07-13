@@ -1,0 +1,113 @@
+[
+  {
+    "description": "    Visit Hunter App and validate message details",
+    "keyword": "Feature",
+    "name": "Visit Hunter App and look for response code 375",
+    "line": 1,
+    "id": "visit-hunter-app-and-look-for-response-code-375",
+    "tags": [],
+    "uri": "SecondTest.feature",
+    "elements": [
+      {
+        "id": "visit-hunter-app-and-look-for-response-code-375;look-for-a-message-id-with-response-code-0",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Look for a message ID with response code 0",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Customer portal app is opened",
+            "result": {
+              "status": "passed",
+              "duration": 3323000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user enters the login credentials",
+            "result": {
+              "status": "passed",
+              "duration": 1921000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "user clicks on Login button",
+            "result": {
+              "status": "passed",
+              "duration": 1653000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "user navigates to \"Events\" tab",
+            "result": {
+              "status": "passed",
+              "duration": 501000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "user search by message ID \"1288280697949127680\"",
+            "result": {
+              "status": "passed",
+              "duration": 4092000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "\"ID 1288280697949127680\" message is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 2010000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "\"Submission attempted: Delivered\" is displayed in Submission attempted label",
+            "result": {
+              "status": "passed",
+              "duration": 50000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "\"Attempts: undefined\" is displayed in Attempts label",
+            "result": {
+              "status": "passed",
+              "duration": 46000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "user logs out",
+            "result": {
+              "status": "passed",
+              "duration": 1574000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
